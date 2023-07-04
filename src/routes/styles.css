@@ -28,7 +28,7 @@ body {
 
 p {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 1rem;
     line-height: 1.5;
 }
 
@@ -79,22 +79,5 @@ label {
 
 
 .highlight {
-    color: var(--color-h);
-}
-
-.material-icons {
-    color: var(--color-2);
-}
-
-.icon-btn {
-    width: auto;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-    outline: none;
-    border: 0;
-}
-
-.icon-btn:hover .material-icons {
     color: var(--color-h);
 }
