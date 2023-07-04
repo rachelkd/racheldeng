@@ -81,9 +81,11 @@ label {
 .highlight {
     color: var(--color-h);
 }
+
 .material-icons {
     color: var(--color-2);
 }
+
 .icon-btn {
     width: auto;
     height: auto;
@@ -92,6 +94,7 @@ label {
     outline: none;
     border: 0;
 }
+
 .icon-btn:hover .material-icons {
     color: var(--color-h);
 }
