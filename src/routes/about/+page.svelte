@@ -9,8 +9,9 @@
     // import { onMount } from 'svelte';
 </script>
 
-<div class="page" in:fade={{delay: 300, duration: 1500}}>
-    <WelcomeHeader />
+<WelcomeHeader />
+
+<div class="page" in:fade={{delay: 300, duration: 1000}}>
     <h1>/about-me</h1>
     <div class="about-me-text">
         <p>Formally called Rachel Deng. Pursuing an Honours Bachelor of Science in computer science with a minor in philosophy at University of Toronto. Following developments in technology intersected with health and society.<br><br>Working with technologies in:</p>

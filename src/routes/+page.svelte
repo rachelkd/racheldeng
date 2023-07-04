@@ -55,7 +55,7 @@
 </div>
 {/if}
 {#if showElements}
-    <div class="page" in:fade={{delay: 300, duration: 1500}}>
+    <div class="page" in:fade={{delay: 300, duration: 1000}}>
         <div class="about-me-box">
             <p>I am a first year computer science student at University of Toronto. I love everything technology -- whether it&rsquo;s to do with healthcare, education, music, or visual media.</p>
             <br>
