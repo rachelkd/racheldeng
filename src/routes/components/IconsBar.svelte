@@ -2,6 +2,7 @@
     // import IconButton from '@smui/icon-button';
     import SvgIcon from '@jamescoyle/svelte-icon';
     import { mdiEmailOpenHeartOutline, mdiGit, mdiLinkedin } from '@mdi/js';
+    
     let clicks = 0;
     // Functions
     function handleClick(icon = "") 
@@ -38,7 +39,6 @@
         bottom: 1.8rem;
         right: 0;
         padding: 1rem;
-        /* --mdc-icon-size: 100; */
     }
     .icon-btn {
     width: auto;

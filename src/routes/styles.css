@@ -7,6 +7,7 @@
     --color-1: #5C6B73;
     --color-2: #9DB4C0;
     --color-h: #E0FBFC;
+    --color-h-2:#D0426D;
     --color-text: #9DB4C0;
     --color-shadow: rgba(255, 244, 219, 0.5);
     --column-width: 42rem;
@@ -17,13 +18,15 @@
 
 body {
     background-color: var(--color-bg);
-    min-height: 100vh;
-    margin: 0;
-    margin-left: 5%;
-    margin-right: 5%;
+    min-height: 70vh;
+    min-width: 80vw;
     display: flex;
     align-items: center;
     justify-content: left;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 p {
@@ -33,11 +36,12 @@ p {
 }
 
 a {
-    color: var(--color-theme-1);
+    color: var(--color-2);
     text-decoration: none;
 }
 
 a:hover {
+    color: var(--color-h-2);
     text-decoration: underline;
 }
 
@@ -71,13 +75,93 @@ button {
 button {
     fill: none;
     background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: inherit;
+}
+
+button:hover {
+    color: var(--color-h);
+    transition: all .2s ease;
+    cursor: pointer;
 }
 
 label {
     display: block;
 }
 
-
 .highlight {
     color: var(--color-h);
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20vw;
+    text-align: left;
+
+}
+
+.welcome-text-box {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.welcome-text-box h1, .welcome-text-box p {
+    white-space: nowrap; /* Keeps the content on a single line */
+}
+
+.welcome-text-box h1::after {
+    content: "";
+    margin-left: 1rem;
+    width: 3px;
+    height: 42px;
+    border-radius: 5px;
+    background: var(--color-text);
+    display: inline-block;
+    animation: cursor-blink 1.5s ease-in-out infinite;
+}
+
+@keyframes cursor-blink {
+    0% {
+            opacity: 0;
+        }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    /* width: 200px;
+    height: 200px; */
+    text-align: right;
+    padding-right: 1rem;
+    right: 1.2rem;
+    bottom: 10rem;
+    color: var(--color-h);
+}
+
+.about-me-box {
+    margin-right: 35%;
+}
+
+.contact-me-btn {
+    border: 1.5px solid black;
+    border-color: var(--color-text);
+    border-radius: 10px;
+    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.contact-me-btn:hover {
+    border: 1.5px solid black;
+    border-color: var(--color-h);
 }

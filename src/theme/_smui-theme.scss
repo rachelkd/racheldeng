@@ -16,10 +16,3 @@ body {
   background-color: theme.$background;
   color: theme.$surface;
 }
-
-a {
-  color: #E0FBFC;
-}
-a:visited {
-  color: color.scale(#40b3ff, $lightness: -35%);
-}
