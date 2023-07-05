@@ -1,23 +1,28 @@
-<a class="header" href="/">
+<div class="header">
+    <a href="/">
     <div class="welcome-box">
         <h1>nice to meet you!<br>my name is <span class=highlight>rachel</span>.</h1>
     </div>
 </a>
+</div>
+
 
 
 
 <style>
     .header {
         position: fixed;
-        top: 1rem;
+        top: 0;
+        padding-top: 1rem;
         width: 100vw;
         height: auto;
         padding-bottom: 1rem;
         background-color: var(--color-bg);
-        color: inherit;
-        text-decoration: inherit;
     }
-
+    .header a {
+        color: inherit;
+        text-decoration: none;
+    }
     .welcome-box {
         position: relative;
         -webkit-touch-callout: none; /* iOS Safari */

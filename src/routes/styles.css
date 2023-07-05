@@ -120,8 +120,8 @@ label {
 .welcome-text-box h1::after {
     content: "";
     margin-left: 1rem;
-    width: 3px;
-    height: 42px;
+    width: 0.15vw;
+    height: 2.5vw;
     border-radius: 5px;
     background: var(--color-text);
     display: inline-block;

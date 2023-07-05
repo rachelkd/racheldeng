@@ -25,4 +25,7 @@
         text-decoration: underline;
         transition: all .2s ease;
     }
+    .error a:hover {
+        color: var(--color-h);
+    }
 </style>
