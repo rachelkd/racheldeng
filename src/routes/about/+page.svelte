@@ -1,8 +1,8 @@
 <script>
     import { fade, fly } from 'svelte/transition';
-    import IconsBar from "../components/IconsBar.svelte";
-    import NavBar from "../components/NavBar.svelte";
-    import WelcomeHeader from "../components/WelcomeHeader.svelte";
+    import IconsBar from "../_components/IconsBar.svelte";
+    import NavBar from "../_components/NavBar.svelte";
+    import WelcomeHeader from "../_components/WelcomeHeader.svelte";
     // import { afterUpdate } from 'svelte';
     // import { goto } from '$app/navigation'
     // import { quintOut } from 'svelte/easing';
@@ -14,7 +14,7 @@
 <div class="page" in:fade={{delay: 300, duration: 1000}}>
     <h1>/about-me</h1>
     <div class="about-me-text">
-        <p>Formally called Rachel Deng. Pursuing an Honours Bachelor of Science in computer science with a minor in philosophy at University of Toronto. Following developments in technology intersected with health and society.<br><br>Working with technologies in:</p>
+        <p>Formally called <span class="highlight-2">Rachel Deng</span>. Pursuing an Honours Bachelor of Science in computer science with a minor in philosophy at <span class="highlight-2">University of Toronto</span>. Following developments in technology intersected with health and society.<br><br>Working with technologies in:</p>
         <table>
             <tr>
                 <td>- Python</td>
@@ -45,7 +45,7 @@
         line-height: 150%;
     }
     td {
-        padding-right: 3rem;
+        padding-right: 4rem;
         /* padding-bottom: 0.5rem; */
     }
     .about-me-text {

@@ -7,7 +7,8 @@
     --color-1: #5C6B73;
     --color-2: #9DB4C0;
     --color-h: #E0FBFC;
-    --color-h-2:#D0426D;
+    --color-h-2:#F067AB;
+    --color-h-2-l: #cc85a8;
     --color-text: #9DB4C0;
     --color-shadow: rgba(255, 244, 219, 0.5);
     --column-width: 42rem;
@@ -23,7 +24,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-top: 8%;
+    margin-top: 10%;
     margin-bottom: 8%;
     margin-left: 5%;
     margin-right: 5%;
@@ -43,10 +44,12 @@ a {
 a:hover {
     color: var(--color-h-2);
     text-decoration: underline;
+    transition: all .2s ease-in-out;
 }
 
 h1 {
     font-size: 3rem;
+    font-size: 3vw;
     font-weight: 700;
 }
 
@@ -92,7 +95,9 @@ label {
 .highlight {
     color: var(--color-h);
 }
-
+.highlight-2 {
+    color: var(--color-h-2);
+}
 .welcome {
     display: flex;
     flex-direction: row;
