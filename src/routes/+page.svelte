@@ -4,9 +4,9 @@
     import NavBar from "./_components/NavBar.svelte";
     import AboutMe from "./about/+page.svelte";
     // import { afterUpdate } from 'svelte';
-    import { goto } from '$app/navigation'
+    // import { goto } from '$app/navigation'
     import { fade, fly } from 'svelte/transition';
-    import { quintOut } from 'svelte/easing';
+    // import { quintOut } from 'svelte/easing';
     import { onMount, onDestroy } from 'svelte';
 
     // ---------- Variables -----------------

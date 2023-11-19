@@ -1,8 +1,8 @@
 <nav>
     <!-- <a href="/">/home</a> -->
     <a href="/about">/about</a>
-    <a href="/experience">/experience</a>
-    <a href="/projects">/projects</a>
+    <!-- <a href="/experience">/experience</a> -->
+    <!-- <a href="/projects">/projects</a> -->
 </nav>
 
 <style>
