@@ -13,6 +13,7 @@
     // Variables for showing elements
     let showWelcome = false;
     let showSummary = false;
+    const showSummaryKey = 'showSummary';
     
     // ------------ Event handlers ---------------
     // Handle key presses (Enter => show summary)
@@ -51,13 +52,13 @@
     // ----------- Functions ------------
     // Updates showSummary localStorage value
     function updateShowSummary(value=false) {
-        localStorage.setItem('showSummary', JSON.stringify(value));
+        localStorage.setItem(showSummaryKey, JSON.stringify(value));
     }
     // Gets showSummary from local storage
     function getShowSummary() {
-        const storedValue = localStorage.getItem('showSummary');
+        const storedValue = localStorage.getItem(showSummaryKey);
         if (storedValue === null) {
-        return;
+            return;
         }
         showSummary = JSON.parse(storedValue);
     }
@@ -74,8 +75,9 @@
     });
     // Get rid of showSummary in local storage
     // onDestroy( () => {
-    //     // localStorage.removeItem('showSummary');
+    //     // localStorage.removeItem(showSummaryKey);
     // });
+
 </script>
 
 <!-- <div in:fade={{ delay: 350, duration: 1500 }} out:fly={{ delay: 100, duration: 800, y: -500, opacity: 0.1, easing: quintOut }}> -->
