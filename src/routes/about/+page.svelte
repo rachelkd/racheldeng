@@ -14,7 +14,7 @@
 <div class="page" in:fade={{delay: 300, duration: 1000}}>
     <h1>/about-me</h1>
     <div class="about-me-text">
-        <p>Called <span class="highlight-2">Rachel Deng</span>. Pursuing an Honours Bachelor of Science in computer science with a minor in history and philosophy of science at <span class="highlight-2">University of Toronto</span>. Following developments in technology intersected with health and society.<br><br>Working with technologies in:</p>
+        <p>Hi, my name is <span class="highlight-2">Rachel Deng</span>. I am pursuing an Honours Bachelor of Science in computer science with a minor in history and philosophy of science at <span class="highlight-2">University of Toronto</span>. I like to follow developments in technology intersected with health and society.<br><br>Working with technologies in:</p>
         <table>
             <tr>
                 <td>- Python</td>
