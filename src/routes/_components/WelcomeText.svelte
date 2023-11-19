@@ -1,7 +1,7 @@
 <script>
     import SvgIcon from '@jamescoyle/svelte-icon';
     import { mdiArrowLeftBottom } from '@mdi/js';
-    import { flip  } from "svelte/animate";
+    // import { flip } from "svelte/animate";
     
     export let showSummary = false;
     export let handleClick;

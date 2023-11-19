@@ -1,7 +1,8 @@
 <div class="header">
     <a href="/">
     <div class="welcome-box">
-        <h1>nice to meet you!<br>my name is <span class=highlight>rachel</span>.</h1>
+        <!-- <h1>nice to meet you!<br>my name is <span class=highlight>rachel</span>.</h1> -->
+        <h1>/rachel-deng</h1>
     </div>
 </a>
 </div>
@@ -38,15 +39,15 @@
         /* was 18px before */
         white-space: nowrap;
     }
-    .welcome-box h1::after {
-    content: "";
-    margin-left: 0.25rem;
-    width: 0.1rem;
-    height: 15px;
-    border-radius: 5px;
-    background: var(--color-text);
-    display: inline-block;
-    animation: cursor-blink 1.5s ease-in-out infinite;
-    }
+    /* .welcome-box h1::after {
+        content: "";
+        margin-left: 0.3em;
+        width: 0.05em;
+        height: 0.8em;
+        border-radius: 5px;
+        background: var(--color-text);
+        display: inline-block;
+        animation: cursor-blink 1.5s ease-in-out infinite;
+    } */
     
 </style>
