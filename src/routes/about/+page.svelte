@@ -14,7 +14,7 @@
 <div class="page" in:fade={{delay: 300, duration: 1000}}>
     <h1>/about-me</h1>
     <div class="about-me-text">
-        <p>Formally called <span class="highlight-2">Rachel Deng</span>. Pursuing an Honours Bachelor of Science in computer science with a minor in philosophy at <span class="highlight-2">University of Toronto</span>. Following developments in technology intersected with health and society.<br><br>Working with technologies in:</p>
+        <p>Called <span class="highlight-2">Rachel Deng</span>. Pursuing an Honours Bachelor of Science in computer science with a minor in history and philosophy of science at <span class="highlight-2">University of Toronto</span>. Following developments in technology intersected with health and society.<br><br>Working with technologies in:</p>
         <table>
             <tr>
                 <td>- Python</td>
@@ -32,7 +32,7 @@
                 <td></td>
             </tr>
             </table>
-        <p>Peak Platinum 3 in Valorant. Thinks <i>folklore</i> is Taylor Swift&rsquo;s best album. Misses walking her dog with a roll of Gold 200 back home in Vancouver.</p>
+        <p>Enjoys hiking around the Pacific Northwest. Thinks <i>folklore</i> is Taylor Swift&rsquo;s best album. Misses walking her dog with a roll of film back home in Vancouver.</p>
     </div>
 </div>
 <IconsBar />
