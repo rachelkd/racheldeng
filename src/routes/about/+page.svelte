@@ -22,13 +22,13 @@
                 <td>- JavaScript ES6+</td>
             </tr>
             <tr>
+                <td>- C</td>
                 <td>- Svelte.js</td>
                 <td>- React.js</td>
-                <td>- Processing</td>
             </tr>
             <tr>
+                <td>- Processing</td>
                 <td>- HTML & CSS</td>
-                <td></td>
                 <td></td>
             </tr>
             </table>
