@@ -19,7 +19,7 @@
                 break;
             case "linkedin":
                 console.log("Redirecting to LinkedIn...");
-                window.open("https://www.linkedin.com/in/rachelden/");
+                window.location.href = "https://www.linkedin.com/in/rachelden/";
                 break;
         }
         console.log({clicks});
