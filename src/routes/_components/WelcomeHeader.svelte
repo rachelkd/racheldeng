@@ -35,7 +35,7 @@
     }
 
     .welcome-box h1 {
-        font-size: 1vw; 
+        font-size: 1em; 
         /* was 18px before */
         white-space: nowrap;
     }

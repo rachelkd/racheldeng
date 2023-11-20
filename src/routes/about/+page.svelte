@@ -42,13 +42,21 @@
 
 <style>
     table {
-        line-height: 150%;
+        line-height: 1.5em;
     }
     td {
-        padding-right: 4rem;
+        padding-right: 1.5em;
+        white-space: nowrap;
         /* padding-bottom: 0.5rem; */
     }
     .about-me-text {
         margin-right: 40vw;
+    }
+    
+    /* Media query for smaller screens */
+    @media screen and (max-width: 600px) {
+        table {
+            line-height: 1.5em;
+        }
     }
 </style>
