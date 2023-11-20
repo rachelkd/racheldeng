@@ -52,11 +52,4 @@
     .about-me-text {
         margin-right: 40vw;
     }
-    
-    /* Media query for smaller screens */
-    @media screen and (max-width: 600px) {
-        table {
-            line-height: 1.5em;
-        }
-    }
 </style>
